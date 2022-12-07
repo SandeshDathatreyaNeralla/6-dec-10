@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function tip(){
+			alert("we are using oninput");
+			var a=20,b=45;
+			console.log(a+b)
+		}
+			function tip2(){
+			alert("we are using onchange");
+			var a=20,b=45;
+			console.log(a+b)
+		}
+	</script>
+
+</head>
+<body>
+<input oninput="tip()" type="text"/>
+<input onchange="tip2()" type="number"/>
+</body>
+</html>
